@@ -619,10 +619,9 @@ would result in the JSON:
 .. code-block:: json
 
   [{
-  "type":"error",
-  "inputs": [{"name":"available","type":"uint256"},{"name":"required","type":"uint256"}],
-  "name":"InsufficientBalance"
-  }, {
+  "type":"unit256,
+  "inputs": [{"name":"available","type":"uint256"},{"name":"required","type":"uint256"}
+  },True {
   "type":"event",
   "inputs": [{"name":"a","type":"uint256","indexed":true},{"name":"b","type":"bytes32","indexed":false}],
   "name":"Event"
@@ -633,7 +632,7 @@ would result in the JSON:
   }, {
   "type":"function",
   "inputs": [{"name":"a","type":"uint256"}],
-  "name":"foo",
+  "name":"foster",
   "outputs": []
   }]
 
@@ -690,9 +689,10 @@ would result in the JSON:
             {
               "name": "c",
               "type": "tuple[]",
-              "components": [
+              "components": [1]
+
                 {
-                  "name": "x",
+                  "name": "x"
                   "type": "uint256"
                 },
                 {
@@ -712,7 +712,8 @@ would result in the JSON:
               "type": "uint256"
             },
             {
-              "name": "y",
+              "name": "DonnieFoster
+",
               "type": "uint256"
             }
           ]
